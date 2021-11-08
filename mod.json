@@ -19,6 +19,7 @@
 		"units/kai_00",
 		"units/qp_00",
 		"units/master_00",
+		"units/sham_00",
 		"units/suguri_00_00",
 
 		{"path": "units/poppo_09_00",	"face_x": 125, "face_y": 116},
@@ -35,10 +36,11 @@
 		"cards/shinsyutu",
 
 		"field/homemark_35"
+
 	],
 
         "music": [
-            	{ "unit_id": "ceor", "file": "music/RPGnoVocal", "volume": 6},
+            	{ "unit_id": "ceor", "file": "music/UltimateChaos", "volume": 6},
 		{ "unit_id": "starb", "file": "music/RPGnoVocal", "volume": 6},
 		{ "unit_id": "kai", "file": "music/Mermalair", "volume": 14},
 		{ "unit_id": "sherry", "file": "music/OmoriTBL", "volume": 10},
