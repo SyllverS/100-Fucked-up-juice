@@ -35,13 +35,15 @@
 		"cards/delta",
 		"cards/shinsyutu",
 
+
+		"field/homemark_02",
 		"field/homemark_03",
 		"field/homemark_35"
 
 	],
 
         "music": [
-            	{ "unit_id": "ceor", "file": "music/UltimateChaos", "volume": 6},
+            	{ "unit_id": "ceor", "file": "music/UN_Owen_Was_Her", "volume": 6},
 		{ "unit_id": "starb", "file": "music/RPGnoVocal", "volume": 6},
 		{ "unit_id": "kai", "file": "music/Mermalair", "volume": 14},
 		{ "unit_id": "sherry", "file": "music/OmoriTBL", "volume": 10},
