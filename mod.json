@@ -2,10 +2,10 @@
     "ModDefinition":
     {
         "name": "100% Fucked up juice",
-        "description": "Including: Unit sprites, unit themes, card sprites, pets",
+        "description": "Including: Unit sprites, unit themes, card sprites, pets, homes",
         "author": "Syllver",
         "system_version": 2,
-        "changelog": "Version 3.2, added PETS",
+        "changelog": "Version 4, added homes",
 		"color": "e977ed"
         
     },
