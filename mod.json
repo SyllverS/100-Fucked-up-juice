@@ -14,12 +14,14 @@
 	"textures": [
 		"units/starb_00",
 		"units/ceor_00",
+		"units/tmsw_00",
 		"units/sherry_00",
 		"units/kai_00",
 		"units/qp_00",
 		"units/master_00",
 		"units/sham_00",
 		"units/suguri_00_00",
+		"units/alte_00",
 
 		{"path": "units/poppo_09_00",	"face_x": 125, "face_y": 116},
 		{"path": "units/poppo_09_01",	"face_x": 125, "face_y": 116},
@@ -29,33 +31,42 @@
 		{"path": "units/poppo_09_05",	"face_x": 125, "face_y": 116},
 
 		"cards/whim",
-		"cards/shinsyutu",
 
-			 { "path": "cards/stealth", 
-			 "custom_name": "Gremlin mode", 
-			 "custom_flavor": "Roll for sneak attack." 
-			 },
 
 			 { "path": "cards/delta", 
 			 "custom_name": "''Ehe''", 
-			 "custom_flavor": "I don't know about that yet - Arice" 
+			 "custom_flavor": "''I don't know about that yet'' - Arice" 
 			 },
 
 			 { "path": "cards/hairlock", 
 			 "custom_name": "Witch's Hair Lock", 
-			 "custom_flavor": "No, I think I'll stay here - Syllver" 
+			 "custom_flavor": "''No, I think I'll stay here'' - Syllver" 
 			 },
 
 			 { "path": "cards/starbfuse", 
-			 "custom_name": "Starblasting fuse", 
-			 "custom_flavor": "Would be a shame if someone was behind you~ - Syllver" 
+			 "custom_name": "Condemnation", 
+			 "custom_flavor": "''Would be a shame if someone was behind you~'' - Syllver" 
 			 },
 
 			 { "path": "cards/sbftibomb", 
 			 "custom_name": "Time for explosions", 
-			 "custom_flavor": "Would be a shame if someone had a long-ranged shot~ - Syllver" 
+			 "custom_flavor": "''Would be a shame if someone had a long-ranged shot~'' - Syllver" 
 			 },
 
+			 { "path": "cards/selfd", 
+			 "custom_name": "Afterlife Delivery", 
+			 "custom_flavor": "''I am mailing you a bomb'' - Syllver" 
+			 },
+
+			 { "path": "cards/syuyaku", 
+			 "custom_name": "Impending Intrusion", 
+			 "custom_flavor": "''He's just approaching...MENACINGLY'' - Ben" 
+			 },
+
+			 { "path": "cards/shinsyutu", 
+			 "custom_name": "BENefits", 
+			 "custom_flavor": "''Eat the rich! (you)'' - Benjamin" 
+			 },
 
 
 		"field/homemark_02",
@@ -67,13 +78,15 @@
         "music": [
             	{ "unit_id": "ceor", "file": "music/UN_Owen_Was_Her", "volume": 6},
 		{ "unit_id": "starb", "file": "music/RPGnoVocal", "volume": 6},
-		{ "unit_id": "kai", "file": "music/Mermalair", "volume": 14},
+		{ "unit_id": "kai", "file": "music/Mermalair", "volume": 16},
 		{ "unit_id": "sherry", "file": "music/OmoriTBL", "volume": 10},
 		{ "unit_id": "sham", "file": "music/CyberWorld", "volume": 10},
 		{ "unit_id": "suguri", "file": "music/VsGiratina", "volume": 10},
-		{ "event": "maynie_ragingmode", "file": "music/Mad", "volume": 8},
-		{ "unit_id": "qp", "file": "music/infestation2", "volume": 8},
-		{ "unit_id": "poppo", "file": "music/infestation2", "volume": 8}
+		{ "unit_id": "maynie", "file": "music/mad", "volume": 6},
+		{ "event": "maynie_ragingmode", "file": "music/Rampant", "volume": 6},
+		{ "unit_id": "qp", "file": "music/Infestation_Loopable", "volume": 7},
+		{ "unit_id": "poppo", "file": "music/Infestation_Loopable", "volume": 7},
+		{ "unit_id": "alte", "file": "music/Rinne_Tensei", "volume": 7}
         ],
 
 	"pets": [
