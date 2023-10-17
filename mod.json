@@ -5,7 +5,7 @@
         "description": "Including: Unit sprites, unit themes, card sprites, pets",
         "author": "Syllver",
         "system_version": 2,
-        "changelog": "Version 4.2, added cardnames and new pets",
+        "changelog": "Version 5, Cleansed.",
 		"color": "e977ed"
         
     },
@@ -15,11 +15,9 @@
 		"units/starb_00",
 		"units/ceor_00",
 		"units/tmsw_00",
-		"units/sherry_00",
 		"units/kai_00",
 		"units/qp_00",
 		"units/master_00",
-		"units/sham_00",
 		"units/suguri_00_00",
 		"units/alte_00",
 
@@ -30,13 +28,6 @@
 		{"path": "units/poppo_09_04",	"face_x": 110, "face_y": 206},
 		{"path": "units/poppo_09_05",	"face_x": 125, "face_y": 116},
 
-		"cards/whim",
-
-
-			 { "path": "cards/delta", 
-			 "custom_name": "''Ehe''", 
-			 "custom_flavor": "''I don't know about that yet'' - Arice" 
-			 },
 
 			 { "path": "cards/hairlock", 
 			 "custom_name": "Witch's Hair Lock", 
@@ -70,7 +61,6 @@
 
 
 		"field/homemark_02",
-		"field/homemark_03",
 		"field/homemark_35"
 
 	],
@@ -79,8 +69,6 @@
             	{ "unit_id": "ceor", "file": "music/UN_Owen_Was_Her", "volume": 6},
 		{ "unit_id": "starb", "file": "music/RPGnoVocal", "volume": 6},
 		{ "unit_id": "kai", "file": "music/Mermalair", "volume": 16},
-		{ "unit_id": "sherry", "file": "music/OmoriTBL", "volume": 10},
-		{ "unit_id": "sham", "file": "music/CyberWorld", "volume": 10},
 		{ "unit_id": "suguri", "file": "music/VsGiratina", "volume": 10},
 		{ "unit_id": "maynie", "file": "music/mad", "volume": 6},
 		{ "event": "maynie_ragingmode", "file": "music/Rampant", "volume": 6},
@@ -103,25 +91,6 @@
                     		{ "layer": "base", "path": "pets/syll_b00_03" },
                     		{ "layer": "base", "path": "pets/syll_b00_04" },
                     		{ "layer": "base", "path": "pets/syll_b00_05" }
-			],
-			"layers":[
-                    	{ "variant": 0, "layer": "base" }
-			]
-		},
-
-	       	{
-	                "id": "slime",
-	                "floating": false,
-	                "face_x": 160,
-                	"face_y": 152,
-
-                	"textures": [
- 				{ "layer": "base", "path": "pets/genshinslime_b00_00" },
-                    		{ "layer": "base", "path": "pets/genshinslime_b00_01" },
-                    		{ "layer": "base", "path": "pets/genshinslime_b00_02" },
-                    		{ "layer": "base", "path": "pets/genshinslime_b00_03" },
-                    		{ "layer": "base", "path": "pets/genshinslime_b00_04" },
-                    		{ "layer": "base", "path": "pets/genshinslime_b00_05" }
 			],
 			"layers":[
                     	{ "variant": 0, "layer": "base" }
