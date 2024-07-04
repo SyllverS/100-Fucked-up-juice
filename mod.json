@@ -17,7 +17,6 @@
 		"units/tmsw_00",
 		"units/kai_00",
 		"units/qp_00",
-		"units/master_00",
 		"units/suguri_00_00",
 		"units/alte_00",
 
@@ -61,6 +60,7 @@
 
 
 		"field/homemark_02",
+		"field/homemark_19",
 		"field/homemark_35"
 
 	],
